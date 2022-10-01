@@ -46,10 +46,15 @@ li {
     list-style-type: none;
 }
 
+p {
+    line-height: 1.5;
+}
+
 .nav__logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 24px;
 }
 
 .nav__logo--text {
@@ -103,4 +108,69 @@ li {
 
 .nav__link--primary:hover {
     text-decoration: none;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+/* Landing page */
+
+.landing__row {
+    display: flex;
+}
+
+
+.landing__text__side {
+    width: 40%;
+    padding: 24px;
+}
+
+.landing__text--heading {
+    font-size: 40px;
+    margin-bottom: 48px;
+}
+
+.landing__text--para {
+    margin-bottom: 48px;
+}
+
+.get__started {
+    margin-bottom: 96px;
+    position: relative;
+}
+
+.get__started__btn {
+    position: absolute;
+    padding: 16px;
+    border-radius: 9999px;
+}
+
+.landing__form {
+    border-radius: 9999px;
+    padding: 16px;
+    margin-right: 8px;
+}
+
+
+.our__tc {
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.tc__img {
+    width: 100%;
+}
+
+.landing__img__side {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.landing__img {
+    width: 100%;
+    max-width: 512px;
+    height: 368px;
 }
